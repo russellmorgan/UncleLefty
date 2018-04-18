@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'stylographnormal';
+    src: url('../font/styl-webfont.eot');
+    src: url('../font/styl-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/styl-webfont.woff') format('woff'),
+         url('../font/styl-webfont.ttf') format('truetype'),
+         url('../font/styl-webfont.svg#stylographnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face{
+font-family:"AmericanTypwrterITCW02- 737097";
+src:url("../font/737097/b0a6ffcb-0fd8-40ef-8d6c-5dd763edff98.eot?#iefix");
+src:url("../font/737097/b0a6ffcb-0fd8-40ef-8d6c-5dd763edff98.eot?#iefix") format("eot"),url("../font/737097/6a3e8126-55e1-4ddf-b2ca-05501d7e0b49.woff") format("woff"),url("../font/737097/95cbe64e-450b-4cab-b793-926491fab6a4.ttf") format("truetype"),url("../font/737097/3fdb1dae-45c4-4b42-9d3e-1909103844be.svg#3fdb1dae-45c4-4b42-9d3e-1909103844be") format("svg");
+}
+@font-face{
+font-family:"AmericanTypwrterITCW02- 737076";
+src:url("../font/737076/2e665264-3523-4468-9127-707776c8664c.eot?#iefix");
+src:url("../font/737076/2e665264-3523-4468-9127-707776c8664c.eot?#iefix") format("eot"),url("../font/737076/607010a8-a057-42dc-93bf-40a5990d8b10.woff") format("woff"),url("../font/737076/4522ab95-959c-4c70-a179-53ad18ade67d.ttf") format("truetype"),url("../font/737076/88844595-7605-4d72-953d-988b29a97213.svg#88844595-7605-4d72-953d-988b29a97213") format("svg");
+}
+
+
+.backr {
+background-image: url(../img/arrow-L.png);
+background-repeat: no-repeat;
+
+}
+
+body {
+background-image: url(../img/bg-paper.jpg);
+}
+
+
+#page {
+background-image: url(../img/bg-lefty-1400.png);
+}
+
+
+.site-branding h1 a {
+width: 462px;
+height: 62px;
+overflow: hidden;
+text-indent: -9999px;
+display: block;
+background: url(../img/uncle-lefty-logo.png) no-repeat;
+text-align: center;
+}
+
+.fb a {
+background-image: url(../img/UL-FB-like.png);
+
+}
+@media (max-width: 700px) {
+ #page {
+background-image: none;
+
+}
+
+
+
+
+}

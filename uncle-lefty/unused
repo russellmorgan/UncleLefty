@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+#page {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -30px; 
+}
+#page:after {
+  content: "";
+  display: block;
+}
+.site-footer, #page:after {
+  /* .push must be the same height as footer */
+  height: 30px; 
+}
+.site-footer {
+}
+
+
+
+
+
+
+
+
+body.home #page {
+background-image: url(../img/bg-lefty-1400.png);
+background-position: 0 0;
+}
+
+
+
+
+
+
+
+
+			<h1 class="mobile-site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
