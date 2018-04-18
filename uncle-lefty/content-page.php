@@ -14,18 +14,15 @@
 	
 	
 <?php if ( is_page(21) ) {  
-$xcat = 6;
-include (TEMPLATEPATH . '/inc/roster-list.php'); 
-} elseif ( is_page(23) ) {   
-$xcat = 7;
-include (TEMPLATEPATH . '/inc/roster-list.php');  
-} elseif ( is_page(1379) ) {   
-$xcat = 9;
-include (TEMPLATEPATH . '/inc/roster-list.php');   
-} elseif ( is_page(1381) ) {   
-$xcat = 10;
-include (TEMPLATEPATH . '/inc/roster-list.php');   
-} else { 
+	$xcat = 6;
+	include (TEMPLATEPATH . '/inc/roster-list.php'); 
+		} elseif ( is_page(23) ) {   
+			$xcat = 7;
+			include (TEMPLATEPATH . '/inc/roster-list.php');  
+		} elseif ( is_page(1499) ) {   
+			$xcat = 6;
+			include (TEMPLATEPATH . '/inc/roster-list.php');    
+		} else { 
 } ?>
 	
 	

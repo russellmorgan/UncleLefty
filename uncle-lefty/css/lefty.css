@@ -204,9 +204,25 @@ a:hover, a:active, a:link:hover, a:link:active, a:visited:hover, a:visited:activ
 }
 /* line 222, ../xscss/lefty.scss */
 #site-navigation ul ul {
-  display: none;
-  text-align: center;
+  box-shadow: 0 0 0 transparent;
+  font-size: 18px;
+  width: 400px;
+  margin-top:10px;
 }
+
+#site-navigation ul ul li {
+  float:left;
+}
+
+#site-navigation ul ul li a {
+ background: transparent url(../img/nav_hover_propoganda.png) no-repeat !important;
+ /* use different background for roster submenu */
+ width: 150px;
+ text-align: center;
+ color: #fff;
+ padding-top:5px;
+}
+
 /* line 226, ../xscss/lefty.scss */
 #site-navigation ul li {
   display: inline-block;
@@ -845,6 +861,10 @@ a.more-link {
   margin-top: 20px;
   padding-top: 20px;
   border-top: 1px solid #606060;
+}
+
+.roster-list h1.roster-categories {
+  margin-bottom:10px;
 }
 
 .roster-categories {
