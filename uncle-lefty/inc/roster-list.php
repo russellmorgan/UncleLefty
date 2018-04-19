@@ -5,7 +5,7 @@
 	$xtitle = 'WEST COAST';
 }
 ?>
-<h1 class="roster-categories"><?php echo $xtitle ?></h1>
+<!-- <h1 class="roster-categories"><?php echo $xtitle ?></h1> -->
 <ul class="cf">
 <?php
 $args = array( 'posts_per_page' => -1, 'orderby'=> 'title', 'order' => 'ASC', 'post_type'=>'member', 'category'=> $xcat );
@@ -26,7 +26,7 @@ endif;
 </ul>
 
 
-<?php if ($xcat == 6) echo '<h1 class=roster-categories>NO RELATION</h1>' ?>
+<!-- <?php if ($xcat == 6) echo '<h1 class=roster-categories>NO RELATION</h1>' ?> -->
 
 <ul class="cf">
 <?php if ($xcat == 6) {
