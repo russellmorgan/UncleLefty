@@ -257,14 +257,15 @@ a:hover, a:active, a:link:hover, a:link:active, a:visited:hover, a:visited:activ
 }
 /* line 242, ../xscss/lefty.scss */
 #site-navigation ul li a:active, #site-navigation ul li a:hover, #site-navigation ul li a.active {
-  background: #606060;
+  /* background: #606060; */
   color: white;
 }
 /* line 252, ../xscss/lefty.scss */
-#site-navigation ul li.menu-item-16 a:hover, #site-navigation ul li.current_page_item.menu-item-16 a, #site-navigation ul li.current_page_parent.menu-item-16 a, #site-navigation ul li.current-menu-item.menu-item-16 a, #site-navigation ul li.active.menu-item-16 a {
+#site-navigation ul li.menu-item-16 a:hover, #site-navigation ul li.current_page_item.menu-item-16 a, #site-navigation ul li.current_page_parent.menu-item-16 a, #site-navigation ul li.current-menu-item.menu-item-16 a, #site-navigation ul li.active.menu-item-16 a, #site-navigation ul li.menu-item-16 a.active {
   background: transparent url(../img/nav_hover_about.png) no-repeat;
   color: white;
 }
+
 @media (max-width: 700px) {
   /* line 252, ../xscss/lefty.scss */
   #site-navigation ul li.menu-item-16 a:hover, #site-navigation ul li.current_page_item.menu-item-16 a, #site-navigation ul li.current_page_parent.menu-item-16 a, #site-navigation ul li.current-menu-item.menu-item-16 a, #site-navigation ul li.active.menu-item-16 a {
@@ -272,10 +273,16 @@ a:hover, a:active, a:link:hover, a:link:active, a:visited:hover, a:visited:activ
   }
 }
 /* line 264, ../xscss/lefty.scss */
-#site-navigation ul li.menu-item-1384 a:hover, #site-navigation ul li.current_page_item.menu-item-1384 a, #site-navigation ul li.current_page_parent.menu-item-1384 a, #site-navigation ul li.current-menu-item.menu-item-1384 a, #site-navigation ul li.active.menu-item-1384 a {
+#site-navigation ul li.menu-item-1509 a:hover, #site-navigation ul li.current_page_item.menu-item-1509 a, #site-navigation ul li.current_page_parent.menu-item-1509 a, #site-navigation ul li.current-menu-item.menu-item-1509 a, #site-navigation ul li.active.menu-item-1509 a, #site-navigation ul li.menu-item-1509 a.activated {
   background: transparent url(../img/nav_hover_roster.png) no-repeat;
   color: white;
 }
+
+#site-navigation ul li.menu-item-1509 a:link.activated {
+  background: transparent url(../img/nav_hover_roster.png) no-repeat;
+  color: white;
+}
+
 @media (max-width: 700px) {
   /* line 264, ../xscss/lefty.scss */
   #site-navigation ul li.menu-item-45 a:hover, #site-navigation ul li.current_page_item.menu-item-45 a, #site-navigation ul li.current_page_parent.menu-item-45 a, #site-navigation ul li.current-menu-item.menu-item-45 a, #site-navigation ul li.active.menu-item-45 a {

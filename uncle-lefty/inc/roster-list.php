@@ -52,3 +52,10 @@ endif;
 <!-- show no relation if east coast -->
 
 </div>
+
+<script>
+	$(document).ready( function() {
+		console.log("ready player one");
+		$(".menu-item-1509 a").addClass("activated");
+	});
+</script>
