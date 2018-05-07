@@ -206,6 +206,7 @@ a:hover, a:active, a:link:hover, a:link:active, a:visited:hover, a:visited:activ
 #site-navigation ul ul {
   box-shadow: 0 0 0 transparent;
   width: 400px;
+  margin-top: 5px;
 }
 
 #site-navigation ul ul li {
@@ -866,7 +867,7 @@ a.more-link {
 
 /* line 744, ../xscss/lefty.scss */
 .roster-list {
-  margin-top: 25px;
+  margin-top: 30px;
   padding-top: 20px;
   border-top: 1px solid #606060;
 }
@@ -973,7 +974,7 @@ a.more-link {
 
 /* line 774, ../xscss/lefty.scss */
 .page-id-6 #primary {
-  margin-top: 20px;
+  margin-top: 30px;
   padding-top: 0px;
   border-top: 1px solid #606060;
 }
