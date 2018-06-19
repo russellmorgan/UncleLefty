@@ -214,9 +214,9 @@ a:hover, a:active, a:link:hover, a:link:active, a:visited:hover, a:visited:activ
 }
 
 #site-navigation ul ul li a {
- background-image: url(../img/nav_hover_propoganda.png) !important;
+ background-image: url(../img/nav_hover_roster.png) !important;
  background-repeat: no-repeat;
- background-size: cover !important;
+ background-size: 131px 30px !important;
  /* use different background for roster submenu */
  width: 120px;
  text-align: center;
