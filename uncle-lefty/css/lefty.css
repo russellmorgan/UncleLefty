@@ -679,6 +679,7 @@ article.post header {
   display: none;
   font-family: 'stylographnormal';
 }
+
 /* line 591, ../xscss/lefty.scss */
 .mobile-menu a, .mobile-menu a:link, .mobile-menu a:visited, .mobile-menu a:hover {
   background: none;
@@ -710,6 +711,10 @@ article.post header {
   background: none;
   color: #ffffff;
 }
+
+.mobile-menu ul li.menu-item-1509 a:link.activated {
+  background: transparent !important;
+}
 /* line 616, ../xscss/lefty.scss */
 .mobile-menu ul#menu-main-menu li ul {
   display: block;
@@ -717,13 +722,15 @@ article.post header {
   position: relative;
   top: 0;
   box-shadow: none;
-  list-style-type: disc;
-  padding-left: 25px;
+  list-style-type: none;
+  padding-left: 10px;
+  margin-bottom: 40px;
 }
 /* line 624, ../xscss/lefty.scss */
 .mobile-menu ul#menu-main-menu li ul li {
   display: list-item;
   text-align: left;
+  margin-right: 5%;
 }
 /* line 626, ../xscss/lefty.scss */
 .mobile-menu ul#menu-main-menu li ul li a {
