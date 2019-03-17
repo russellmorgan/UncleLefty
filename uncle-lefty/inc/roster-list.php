@@ -26,7 +26,7 @@ endif;
 </ul>
 
 
-<?php if ($xcat == 6) echo '<h1 class=roster-categories>NO RELATION</h1>' ?>
+<!-- ?php if ($xcat == 6) echo '<h1 class=roster-categories>NO RELATION</h1>' ? -->
 
 <ul class="cf">
 <?php if ($xcat == 6) {
